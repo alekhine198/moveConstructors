@@ -1,0 +1,1 @@
+Following Udemy's Beginning C++ Programming - From beginner to beyond, I wrote this simple class with a copy contructor (that is not used) and a move contructor. 

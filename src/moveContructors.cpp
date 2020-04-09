@@ -7,22 +7,20 @@
 //============================================================================
 #include <iostream>
 #include <string>
-#include "Player.h"
+#include "Move.h"
+#include <vector>
 using namespace std;
 
 
 
 int main() {
 
-    const o::Player villain {"Villain", 100, 55};
-    o::Player hero {"Hero", 100, 15};
-
-   // villain.set_name("Super villain");
-    cout << villain.get_name() << endl;
-    cout << hero.get_name() << endl;
-
-
-    hero.displayName(villain);
+	vector<other::Move> vec;
+	vec.push_back(other::Move(10));
+	vec.push_back(other::Move(20));
+	vec.push_back(other::Move(30));
+	vec.push_back(other::Move(40));
+	vec.push_back(other::Move(50));
 
 
     return 0;
